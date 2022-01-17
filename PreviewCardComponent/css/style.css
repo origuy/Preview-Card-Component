@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+html {
+  font-size: 10px;
+  font-family: outfit, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #cardContainer {
+  width: 33rem;
+  height: 55rem;
+  background-color: #14253d;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0rem 1.5rem 8rem #151e27;
+          box-shadow: 0rem 1.5rem 8rem #151e27;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #cardContainer #imgContainer {
+  position: relative;
+}
+
+body #cardContainer .itemPicture {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 1rem;
+}
+
+body #cardContainer #overlayHoverContainer {
+  position: absolute;
+  width: 28rem;
+  top: 0;
+  opacity: 0;
+  height: 28rem;
+  border-radius: 1rem;
+  background-color: #00fff781;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+body #cardContainer #overlayHover {
+  width: 5rem;
+  height: 5rem;
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body #cardContainer #overlayHoverContainer:hover {
+  opacity: 1;
+}
+
+body #cardContainer #mainHeader {
+  color: #fff;
+  width: 28rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+body #cardContainer #mainHeader:hover {
+  color: #00fff7;
+}
+
+body #cardContainer #mainText {
+  color: #8bacda;
+  width: 28rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+body #cardContainer #priceTimeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28rem;
+  font-size: 1.8rem;
+}
+
+body #cardContainer #priceTimeContainer p img {
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+body #cardContainer #priceTimeContainer p #logo {
+  color: #00fff7;
+  font-weight: 400;
+}
+
+body #cardContainer #priceTimeContainer p #time {
+  color: #8bacda;
+  font-weight: 300;
+}
+
+body #cardContainer #hr {
+  background-color: #2f415b;
+  height: 0.2rem;
+  width: 28rem;
+  border-radius: 1000px;
+}
+
+body #cardContainer #creatorInfoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+body #cardContainer #creatorInfoContainer img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1.5rem;
+}
+
+body #cardContainer #creatorInfoContainer #developerName {
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+body #cardContainer #creatorInfoContainer #developerName:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */
