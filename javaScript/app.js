@@ -1,8 +1,8 @@
 const overlayTapDisplay = document.getElementById('overlayHover');
 const mainHeader = document.getElementById('mainHeader');
-const mainHeader = document.getElementById('developerName');
+const developerName = document.getElementById('developerName');
 
-overlayTapDisplay.addEventListener('touchstart', showOverlay)
+overlayTapDisplay.addEventListener('touchstart', showOverlay);
 mainHeader.addEventListener('touchstart', changeColorHeader);
 developerName.addEventListener('touchstart', changeColorDeveloperName);
 
