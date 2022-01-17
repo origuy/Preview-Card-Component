@@ -2,7 +2,7 @@
 
 this is a HTML and Scss Challenge the site will be responsive rot mobile and desktop.
 
-estimates time for the project: 1 hour time: 1.5
+
 
 ***
 
