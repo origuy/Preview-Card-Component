@@ -60,6 +60,7 @@ body #cardContainer {
 
 body #cardContainer #imgContainer {
   position: relative;
+  cursor: pointer;
 }
 
 body #cardContainer .itemPicture {
@@ -102,6 +103,7 @@ body #cardContainer #mainHeader {
   font-weight: 600;
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
+  cursor: pointer;
 }
 
 body #cardContainer #mainHeader:hover {
@@ -187,6 +189,7 @@ body #cardContainer #creatorInfoContainer #developerName {
   font-weight: 400;
   -webkit-transition: color 0.5s linear;
   transition: color 0.5s linear;
+  cursor: pointer;
 }
 
 body #cardContainer #creatorInfoContainer #developerName:hover {
