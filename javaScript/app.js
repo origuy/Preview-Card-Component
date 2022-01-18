@@ -13,22 +13,27 @@ developerName.addEventListener('touchstart', changeColorDeveloperName);
 function showOverlay(){
     if(showOverlayFlag === false){
         overlayTapDisplay.style.opacity = '1';
-        showOverlayFlag = true
+        showOverlayFlag = true;
     }else{
         overlayTapDisplay.style.opacity = '0';
+        showOverlayFlag = false;
     }
 }
 function changeColorHeader(){
     if(changeColorHeaderFlag === false){
         mainHeader.style.color = '#00fff7';
+        changeColorHeaderFlag = true;
     }else{
         mainHeader.style.color = '#fff';
+        changeColorHeaderFlag = false;
     }
 }
 function changeColorDeveloperName(){
     if(changeColorDeveloperNameFlag === false){
         developerName.style.color = '#00fff7';
+        changeColorDeveloperNameFlag = true;
     }else{
         developerName.style.color = '#fff';
+        changeColorDeveloperNameFlag = false;
     }
 }
