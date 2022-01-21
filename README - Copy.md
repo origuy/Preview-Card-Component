@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![add screen shot](images\ProjectScreenShots.jpg)
+![add screen shot](images/ProjectScreenShots.jpg)
 
 ### Links
 
